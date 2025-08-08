@@ -24,7 +24,7 @@ void	send_char(int server, char c)
 			kill_wrap(server, SIGUSR1);
 		else
 			kill_wrap(server, SIGUSR2);
-		usleep(100);
+		usleep(600);
 		bit++;
 	}
 }
